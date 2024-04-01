@@ -48,6 +48,7 @@
             this.label7 = new Wisej.Web.Label();
             this.button1 = new Wisej.Web.Button();
             this.label8 = new Wisej.Web.Label();
+            this.panel1 = new Wisej.Web.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -222,6 +223,13 @@
             this.button1.TabIndex = 18;
             this.button1.Text = "button1";
             // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(537, 478);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(195, 96);
+            this.panel1.TabIndex = 19;
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -236,6 +244,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 19F);
             this.AutoScaleMode = Wisej.Web.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(811, 619);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -284,6 +293,7 @@
         private Wisej.Web.Label label6;
         private Wisej.Web.Label label7;
         private Wisej.Web.Button button1;
+        private Wisej.Web.Panel panel1;
         private Wisej.Web.Label label8;
     }
 }
