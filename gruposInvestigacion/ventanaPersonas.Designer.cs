@@ -46,6 +46,7 @@
             this.label5 = new Wisej.Web.Label();
             this.label6 = new Wisej.Web.Label();
             this.label7 = new Wisej.Web.Label();
+            this.button1 = new Wisej.Web.Button();
             this.label8 = new Wisej.Web.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -213,6 +214,14 @@
             this.label7.TabIndex = 17;
             this.label7.Text = "Genero";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(373, 446);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 37);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "button1";
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -227,6 +236,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 19F);
             this.AutoScaleMode = Wisej.Web.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(811, 619);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -273,6 +283,7 @@
         private Wisej.Web.Label label5;
         private Wisej.Web.Label label6;
         private Wisej.Web.Label label7;
+        private Wisej.Web.Button button1;
         private Wisej.Web.Label label8;
     }
 }
